@@ -4,3 +4,4 @@ git diff v4 v5
 git log
 git init
 git status
+git add
