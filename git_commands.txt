@@ -5,3 +5,27 @@ git log
 git init
 git status
 git add
+----To check the branches existing
+git branch  
+---To create a new branch
+git branch branchName
+--- To move to another branch
+---- to see the logs diff of different branches
+git log --graph --oneline master coins
+---create and name a new  branch
+git checkout -b branchname
+-- merge two branches master is the branch in which you want to merge other branch coins
+git merge master coins
+git merge --abort
+
+
+git show commit_id
+/* To check if the repository is uploaded in git repository*/
+git remote
+git remote add name url(found on github website)
+/* See remote info*/
+git remote -v
+/* to push the code to github */
+git push origin master
+/* to get files from github */
+git pull origin || git pull

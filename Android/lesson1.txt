@@ -5,3 +5,7 @@ positions views - positioning them
 
 views-:
 i) text view ii) image view  iii) button
+
+We use camel case in Android namings example TextView
+
+XML -- it will tell how the views will be there

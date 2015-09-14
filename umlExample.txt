@@ -1,0 +1,4 @@
+(start)->|a|,|a|->(Make Coffee)->|b|,|a|->(Make Breakfast)->|b|,|b|-><c>[want more coffee]->(Make Coffee),<c>[satisfied]->(end)
+
+(start)->|a|,|a|->(Make Coffee)->|b|,|a|->(Make Breakfast)->|b|,|b|-><c>[want more coffee]->(Make Coffee),<c>[satisfied]->(end)
+(start)->|master branch|->(coins branch)->(various chekcins regarding coins) ->|code merge|,|master branch|->(various bug fixes)->(New feature implementation)->|code merge|->(end)

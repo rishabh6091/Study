@@ -1,2 +1,11 @@
 android vocabulary
 https://developers.google.com/android/for-all/vocab-words/
+
+Android Visualizer
+http://labs.udacity.com/android-visualizer/#/android/text-view
+
+Debugging Android Studio
+https://developer.android.com/tools/debugging/debugging-studio.html#screenCap
+
+Common Android Views and their code samples
+https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view
