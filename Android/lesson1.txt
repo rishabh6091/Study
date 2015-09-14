@@ -1,0 +1,7 @@
+Selective Views - radio buttons,etc
+style views - change color,etc
+positions views - positioning them
+
+
+views-:
+i) text view ii) image view  iii) button
