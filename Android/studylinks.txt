@@ -9,3 +9,6 @@ https://developer.android.com/tools/debugging/debugging-studio.html#screenCap
 
 Common Android Views and their code samples
 https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view
+
+Specs for various texts to be used in app
+http://www.google.com/design/spec/style/

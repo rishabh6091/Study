@@ -9,3 +9,18 @@ i) text view ii) image view  iii) button
 We use camel case in Android namings example TextView
 
 XML -- it will tell how the views will be there
+
+dp -- unit for height and width. It is pixcel independent display
+sp -- unit for textSize. scale independent pixels. It is also pixel independent size of the text. it is only used for fonts
+
+LinearLayout -- parent group view
+android:layout_width="wrap_content"
+android:layout_width="match_parent"
+android:background="@android:color/darker_gray"
+android:textSize="24sp"
+
+RelativeLayout
+android:id="@+ic/rishabh_text_view"
+android:layout_alignParentBottom="true"
+android:layout_toRightOf="@id/rishabh_text_view", 
+layout_centerHorizontal, layout_alignParentTop,layout_toLeftOf
