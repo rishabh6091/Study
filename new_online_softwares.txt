@@ -1,3 +1,8 @@
 to make online uml diagrams
 https://www.gliffy.com/
 http://yuml.me/diagram/activity/draw -- to make linear 
+
+To make teaching videos on computer
+CamStudio http://camstudio.org/
+quicktime
+jing
