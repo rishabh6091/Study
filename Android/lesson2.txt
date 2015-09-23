@@ -1,0 +1,98 @@
+ Toast is the temproary text displayed.
+ its default display is bottom
+
+ TextView
+ 	It has various functions which could be called as 
+ 	    TextView textview = new TextView(this);
+        textview.setAllCaps(true);
+        textview.setText("haha");
+        textview.setTextColor(Color.GREEN);
+        textview.setTextSize(44);
+        textview.setGravity(0x50|0x01);
+        textview.setHeight(100);//Height of text
+        textview.setLetterSpacing(0.05f);//Its units are in em. 1 em = textsize
+FindViewById and setContentView are defined in super class AppCompatActivity
+
+Changing Image
+       ImageView eatCookieImage = (ImageView)findViewById(R.id.android_cookie_image_view);
+        eatCookieImage.setImageResource(R.drawable.after_cookie);
+
+Learned CheckBox
+margin works for spacing b/w checkbox and the checkbox text
+Saving the value of checkbox
+
+ScrollView
+	Put the full Layout in the ScrollView to put the scroller on the page
+
+EditText
+	It is used to write text in the field
+	the inputType could of various types, text, number,etc
+	the value entered could be reffered to by calling function getText() in java; its return type is Editable
+
+Toast
+    Context cntxt = getApplicationContext();
+    CharSequence txt = "Cannot go below 0";
+    int duration = Toast.LENGTH_LONG;
+    Toast tst = Toast.makeText(cntxt, txt,duration);
+    tst.show();
+    toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
+    	-- to move the toast to a little bit left, modify the 2nd parameter
+    	-- to move vertically, edit the 3rd parameter
+
+Style
+	If we have headings in our app
+	then we could make a specefic style in styles.xml example 
+	    <style name="HeaderTextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+	    </style>
+
+Theme
+	a style is for a specefic view. But if we want our whole app's buttons to be of as specefic background. Then we could do it in theme.
+	https://developer.android.com/training/material/theme.html
+	https://www.materialpalette.com/  ---- to pick various colors for themes
+
+
+Intent
+	It is to open another app through our app. Example calling , calender, alarm, photo
+	To check whether an app exists on our phone we should use resolveActivity() function
+
+	Mail Intent example
+	        Intent mailsend = new Intent(Intent.ACTION_SENDTO);
+        mailsend.setData(Uri.parse("mailto:"));
+        mailsend.putExtra(Intent.EXTRA_SUBJECT,"Your order");
+        mailsend.putExtra(Intent.EXTRA_TEXT,message);
+        if(mailsend.resolveActivity(getPackageManager()) != null)
+        {
+            startActivity(mailsend);
+        }
+
+Adding Spanish Language
+	Add an new resource/values/string_es.xml file
+	add all the strings you need to add in the file
+	When you change the phone language to espaniol your strings in spanish language will be shown
+	For getting string in mainActivity.java call getString(R.string.****)
+	in activity_main.xml call @string/****
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
