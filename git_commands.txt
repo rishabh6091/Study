@@ -1,3 +1,8 @@
+Setting git basics
+https://www.udacity.com/course/viewer#!/c-ud775/l-2980038599/m-3341718587
+
+Git Cheat sheet
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 git clone url
 git checkout version
 git diff v4 v5

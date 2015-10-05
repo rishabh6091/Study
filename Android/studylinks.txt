@@ -12,3 +12,11 @@ https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view
 
 Specs for various texts to be used in app
 http://www.google.com/design/spec/style/
+
+to select various colors for the app---- It gives whole colors to be used in the app at various places
+https://www.materialpalette.com/
+OR
+https://www.google.com/design/spec/style/color.html#color-ui-color-application
+
+Study about materials
+https://developer.android.com/training/material/theme.html
